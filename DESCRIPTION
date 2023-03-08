@@ -6,7 +6,7 @@ Authors@R:
     person("Regina", "Reynolds", , "rhreynolds@hotmail.co.uk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-6470-7919"))
 Description: Houses utility functions often used in R targets pipelines.
-License: MIT
+License: MIT + file LICENSE
 URL: https://github.com/RHReynolds/targetutils
 BugReports: https://github.com/RHReynolds/targetutils/issues
 biocViews: Software
@@ -23,3 +23,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
+Imports: 
+    magrittr
