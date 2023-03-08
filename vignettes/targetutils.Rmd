@@ -2,8 +2,6 @@
 title: "Getting started"
 author: 
   - name: Regina H. Reynolds
-    affiliation:
-    - UCL
     email: rhreynolds@hotmail.co.uk
 output: 
   BiocStyle::html_document:
