@@ -12,20 +12,24 @@ status](https://github.com/RHReynolds/rutils/workflows/R-CMD-check-bioc/badge.sv
 [![Codecov test
 coverage](https://codecov.io/gh/RHReynolds/rutils/branch/master/graph/badge.svg)](https://codecov.io/gh/RHReynolds/rutils?branch=master)
 [![Codecov test
-coverage](https://codecov.io/gh/RHReynolds/junctionutils/branch/main/graph/badge.svg)](https://app.codecov.io/gh/RHReynolds/junctionutils?branch=main)
-[![Codecov test
 coverage](https://codecov.io/gh/RHReynolds/targetutils/branch/main/graph/badge.svg)](https://app.codecov.io/gh/RHReynolds/targetutils?branch=main)
 <!-- badges: end -->
 
 The goal of `targetutils` is to house common utility functions used in R
-Targets pipelines.
+targets pipelines.
 
 ## Installation instructions
 
 ``` r
-# you can install the development version of junctionutils from GitHub:
+# you can install the development version of targetutils from GitHub:
 # install.packages("devtools")
 devtools::install_github("RHReynolds/targetutils")
+```
+
+## Citation
+
+``` r
+citation("targetutils")
 ```
 
 ## Acknowledgements
@@ -35,7 +39,6 @@ devtools::install_github("RHReynolds/targetutils")
 
 ## Code of Conduct
 
-Please note that the junctionutils project is released with a
-[Contributor Code of
-Conduct](http://bioconductor.org/about/code-of-conduct/). By
+Please note that the targetutils project is released with a [Contributor
+Code of Conduct](http://bioconductor.org/about/code-of-conduct/). By
 contributing to this project, you agree to abide by its terms.
