@@ -10,7 +10,6 @@ output:
     toc_float: true
     toc_depth: 2
     code_folding: show
-package: "`r pkg_ver('targetutils')`"
 vignette: >
   %\VignetteIndexEntry{Introduction to targetutils}
   %\VignetteEngine{knitr::rmarkdown}
